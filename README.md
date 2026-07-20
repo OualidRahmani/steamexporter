@@ -107,5 +107,3 @@ python query_db.py
 * **Missing Games**: Ensure your Steam profile's "Game Details" privacy setting is set to "Public".
 
 ---
-
-Do you want to add a `LICENSE` file section to the README so people know whether it's open-source (like MIT or GPL)?
