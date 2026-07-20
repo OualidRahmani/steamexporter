@@ -1,10 +1,10 @@
 from tqdm import tqdm
 
-from mappers import map_owned_game, enrich_game_with_store_data
-from steam_api import SteamClient
-from steam_store import SteamStoreClient
-from exporter import export_to_csv, export_to_excel  
-from database import save_games_to_db
+from src.core.mappers import map_owned_game, enrich_game_with_store_data
+from src.api.steam_api import SteamClient
+from src.api.steam_store import SteamStoreClient
+from src.export.exporter import export_to_csv, export_to_excel  
+from src.db.database import save_games_to_db
 
 def main():
     api_client = SteamClient()

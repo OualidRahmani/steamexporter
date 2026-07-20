@@ -5,7 +5,7 @@ from typing import Optional
 from sqlalchemy import String, Float, Integer, DateTime, create_engine
 from sqlalchemy.orm import DeclarativeBase, Mapped, mapped_column, sessionmaker
 
-from models import Game
+from src.core.models import Game
 
 # 1. Define the Base class for the ORM
 class Base(DeclarativeBase):

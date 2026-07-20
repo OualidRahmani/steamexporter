@@ -2,7 +2,7 @@ import os
 
 from dotenv import load_dotenv
 
-from http_client import HttpClient
+from src.api.http_client import HttpClient
 
 load_dotenv()
 

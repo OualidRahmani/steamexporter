@@ -4,7 +4,7 @@ from pathlib import Path
 from typing import List
 
 from openpyxl import Workbook
-from models import Game
+from src.core.models import Game
 
 
 def export_to_csv(games: List[Game], output_path: str = "output/library.csv"):

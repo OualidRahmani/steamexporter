@@ -1,6 +1,6 @@
 from datetime import datetime
 
-from models import Game
+from src.core.models import Game
 
 
 def map_owned_game(data: dict) -> Game:

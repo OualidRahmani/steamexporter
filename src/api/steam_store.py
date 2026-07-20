@@ -4,7 +4,7 @@ from pathlib import Path
 from requests.exceptions import HTTPError
 from tqdm import tqdm
 
-from http_client import HttpClient
+from src.api.http_client import HttpClient
 
 
 class SteamStoreClient(HttpClient):
