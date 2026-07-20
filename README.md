@@ -79,12 +79,7 @@ python steam_export.py
 *Note: If you have a large library, the script will automatically pause to respect Steam's rate limits. Do not close the terminal; it will resume automatically.*
 
 **Query the Database:**
-Once the pipeline finishes, a `library.db` file will be generated. You can use the included query script to see your top played games and free-to-play titles using the SQLAlchemy ORM:
-
-```bash
-python query_db.py
-
-```
+Once the pipeline finishes, a `library.db` file will be generated.
 
 ## Project Structure
 
