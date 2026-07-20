@@ -1,7 +1,3 @@
-Here is a clean, professional `README.md` formatted specifically for GitHub. It explains the core features, walks users through setting up their own environment variables securely, and details how to interact with the database.
-
----
-
 # Steam Library Exporter
 
 A modern, modular Python pipeline that retrieves your entire Steam library, enriches it with real-time pricing and metadata from the Steam Store API, and exports it into highly structured formats.
