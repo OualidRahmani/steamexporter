@@ -12,14 +12,12 @@ A modern, modular Python pipeline that retrieves your entire Steam library, enri
 * **Excel Workbook:** A multi-sheet `xlsx` file containing your library, calculated stats, top developers, and top publishers.
 * **SQLite Database:** A fully structured local database (`library.db`) managed via SQLAlchemy ORM for complex queries.
 
-
-
 ## Quick Start
 
 ### 1. Prerequisites
 
 * Python 3.10+
-* A Steam API Key (Get one [here](https://steamcommunity.com/dev/apikey))
+* A Steam API Key (Get [your api key here](https://steamcommunity.com/dev/apikey))
 * A public Steam Profile
 
 ### 2. Installation
@@ -88,8 +86,6 @@ Once the pipeline finishes, a `library.db` file will be generated.
 * `models.py`: Domain models (Dataclasses) for game objects.
 * `mappers.py`: Logic for translating raw JSON into Python objects.
 * `exporter.py`: Handles CSV and Excel generation using `openpyxl`.
-
-
 * `database.py`: SQLAlchemy setup, schema definition, and SQLite injection logic.
 
 ## Troubleshooting
